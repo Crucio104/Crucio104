@@ -1,22 +1,21 @@
-# Hi there! 👋
+# Hi there! I'm Alessio 👋
 
-[cite_start]I am a 3rd-year **Applied Computer Science and Artificial Intelligence (ACSAI)** student at Sapienza University of Rome[cite: 12, 17]. [cite_start]I am focused on building a strong foundation in AI and software development through a degree program taught entirely in English[cite: 33].
+I am a 3rd-year student at **Sapienza University of Rome**, currently pursuing a Bachelor’s degree in **Applied Computer Science and Artificial Intelligence (ACSAI)**, taught entirely in English.
 
 ### 💻 Technical Skills
-* [cite_start]**Core Languages:** Proficient in **Python** and **Java**, achieving top marks (30 and 30 cum laude) in university programming exams[cite: 20, 21].
-* [cite_start]**Other Languages:** Experienced in C, C++, R, and Web Technologies (HTML/JavaScript)[cite: 20, 36].
-* [cite_start]**Core Competencies:** Machine Learning, Artificial Intelligence, Algorithms, Database Management, and Computer Architecture[cite: 35].
+* **Programming Languages:** Proficient in **Python** (main language), **Java**, C, C++, R, and HTML/Javascript.
+* **Academic Excellence:** Achieved maximum grades (30 and 30 cum laude) in university programming exams for Python and Java.
+* **Core Competencies:** Machine Learning, Artificial Intelligence, Algorithms, Database Management, Linear Algebra, and Computer Architecture.
 
-### 🚀 Key Experiences & Projects
-* [cite_start]**Data & AI Research:** Conducted research using big data analytics to construct data-driven personality profiles for public figures using IBM web tools and servers[cite: 29].
-* [cite_start]**Development:** Developed chatbots for customer services and explored block programming for animation[cite: 29].
-* [cite_start]**Collaborations:** Engaged in technical activities and digital labs in association with IBM, Ericsson, and Fondazione Mondo Digitale[cite: 28, 29].
-* [cite_start]**Competitions:** National and regional stages in Mathematics, Computer Science, and Problem Solving Olympics; maximum score in the TeraBebras competition[cite: 24, 25, 26].
+### 🚀 Experience & Projects
+* **Big Data & AI:** Conducted research utilizing big data analytics to construct data-driven personality profiles and developed customer service chatbots using IBM tools.
+* **Collaborations:** Participated in technical activities and digital labs with **IBM, Ericsson, and Fondazione Mondo Digitale**.
+* **Problem Solving:** Reached national and regional stages in Mathematics and Computer Science Olympics; achieved the maximum score in the TeraBebras competition.
 
-### 🎓 Education & Background
-* [cite_start]**University:** Currently pursuing a Bachelor's in ACSAI at Sapienza University[cite: 11, 12].
-* [cite_start]**Certifications:** B2 English certification[cite: 14, 31].
-* [cite_start]**Academic Achievement:** Graduated high school (Applied Sciences/Computer Science focus) with a grade of 98/100[cite: 9, 10].
+### 🎓 Education & Certifications
+* **Degree:** Bachelor of ACSAI, Sapienza University of Rome (3rd year).
+* **Languages:** Native Italian speaker with a **B2 English certification**.
+* **Background:** Scientific High School diploma (Applied Sciences/Computer Science) with a final grade of 98/100.
 
 ---
-*“I enjoy solving complex problems and staying at the forefront of AI innovation.”*
+*“Passionate about AI, robotics, and using data to solve complex problems.”*
