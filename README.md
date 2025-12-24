@@ -1,4 +1,4 @@
-# Hi there! I'm Alessio 👋
+# Hi there!
 
 I am a 3rd-year student at **Sapienza University of Rome**, currently pursuing a Bachelor’s degree in **Applied Computer Science and Artificial Intelligence (ACSAI)**, taught entirely in English.
 
