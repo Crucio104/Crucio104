@@ -1,7 +1,9 @@
 <div align="center">
 
-  <!-- Dynamic Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color=0:2563eb,100:7c3aed&height=200&section=header&text=Alessio%20Curcio&fontSize=42&fontAlignY=36&fontColor=ffffff&desc=Applied%20CS%20%26%20Artificial%20Intelligence%20%7C%20Sapienza%20Rome&descAlignY=58&descAlign=50" width="100%" alt="Alessio Curcio Header" />
+  <!-- Dynamic Modern Header Banner -->
+  <a href="https://github.com/Crucio104">
+    <img src="./assets/header.svg" width="100%" alt="Alessio Curcio Header" />
+  </a>
 
   <br/>
 
@@ -306,7 +308,7 @@ Here is a curated showcase of my open-source projects across AI systems, compute
 
   <br/><br/>
 
-  <!-- Dynamic Waving Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color=0:7c3aed,100:2563eb&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <!-- Dynamic Modern Footer Banner -->
+  <img src="./assets/footer.svg" width="100%" alt="Alessio Curcio Footer" />
 
 </div>

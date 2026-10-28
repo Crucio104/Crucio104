@@ -1,0 +1,116 @@
+<svg width="100%" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Text Title Gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#e879f9" />
+    </linearGradient>
+
+    <!-- Wave 1 Gradient -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Wave 2 Gradient -->
+    <linearGradient id="wave2" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Ambient Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      fill: #cbd5e1;
+      letter-spacing: 0.3px;
+    }
+    .pill-text {
+      font-family: 'SF Mono', Monaco, Consolas, 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #38bdf8;
+      letter-spacing: 1.5px;
+    }
+    .tags {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 0.5px;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    .pulse-glow {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Card Background with Rounded Corners -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="1.5" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="150" cy="50" r="120" fill="#3b82f6" opacity="0.12" filter="url(#glow)" />
+  <circle cx="750" cy="180" r="140" fill="#8b5cf6" opacity="0.15" filter="url(#glow)" />
+  <circle cx="450" cy="20" r="90" fill="#06b6d4" opacity="0.1" filter="url(#glow)" />
+
+  <!-- Decorative Fluid Waves at Bottom -->
+  <path d="M2 170 Q 220 120 450 165 T 898 150 L 898 236 L 2 236 Z" fill="url(#wave1)" />
+  <path d="M2 195 Q 230 150 450 185 T 898 175 L 898 236 L 2 236 Z" fill="url(#wave2)" />
+
+  <!-- Content Group -->
+  <!-- Top University Badge / Pill -->
+  <g transform="translate(450, 42)">
+    <rect x="-190" y="-14" width="380" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="-174" cy="-1" r="4" fill="#38bdf8" class="pulse-glow" />
+    <text x="-162" y="3" class="pill-text">SAPIENZA UNIVERSITY OF ROME • ACSAI</text>
+  </g>
+
+  <!-- Name Header with Gradient Fill and Shadow -->
+  <text x="450" y="108" text-anchor="middle" class="title" fill="url(#textGradient)" filter="drop-shadow(0 4px 12px rgba(56, 189, 248, 0.25))">
+    Alessio Curcio
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="142" text-anchor="middle" class="subtitle">
+    Applied Computer Science &amp; Artificial Intelligence
+  </text>
+
+  <!-- Interactive Tagline / Core Pillars -->
+  <text x="450" y="172" text-anchor="middle" class="tags">
+    🤖 Autonomous Multi-Agent Systems  •  👁️ Computer Vision  •  ⚡ Local &amp; Privacy-First AI
+  </text>
+</svg>
