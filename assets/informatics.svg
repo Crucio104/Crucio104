@@ -1,0 +1,173 @@
+<svg width="100%" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient (Deep Bordeaux) -->
+    <linearGradient id="infoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24070D" />
+      <stop offset="50%" stop-color="#3B0D17" />
+      <stop offset="100%" stop-color="#1A0409" />
+    </linearGradient>
+
+    <!-- Border Gradient (Warm Sand / Beige) -->
+    <linearGradient id="infoBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBB89D" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#E8DFD8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#CBB89D" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="nodeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .info-title {
+      font-family: 'Cinzel', 'Playfair Display', 'Georgia', serif;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      fill: #F7F4EE;
+    }
+    .info-subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      fill: #CBB89D;
+    }
+    .info-code {
+      font-family: 'SF Mono', Monaco, Consolas, monospace;
+      font-size: 11px;
+      fill: #D4C5B9;
+      opacity: 0.9;
+    }
+    .info-math {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-size: 13px;
+      fill: #E8DFD8;
+      letter-spacing: 0.5px;
+    }
+
+    /* Edge Pulse Animations */
+    @keyframes pulseDash {
+      0% { stroke-dashoffset: 60; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes nodeBlink1 {
+      0%, 100% { fill: #CBB89D; r: 5; opacity: 0.8; }
+      50% { fill: #F7F4EE; r: 7; opacity: 1; }
+    }
+    @keyframes nodeBlink2 {
+      0%, 100% { fill: #A3283F; r: 5; opacity: 0.8; }
+      50% { fill: #E8DFD8; r: 6.5; opacity: 1; }
+    }
+    @keyframes nodeBlink3 {
+      0%, 100% { fill: #F7F4EE; r: 5.5; opacity: 0.7; }
+      50% { fill: #CBB89D; r: 7.5; opacity: 1; }
+    }
+
+    .edge-active1 {
+      stroke-dasharray: 6 4;
+      animation: pulseDash 3s linear infinite;
+    }
+    .edge-active2 {
+      stroke-dasharray: 5 3;
+      animation: pulseDash 4s linear infinite;
+    }
+    .n-anim1 { animation: nodeBlink1 3.5s ease-in-out infinite; }
+    .n-anim2 { animation: nodeBlink2 4.2s ease-in-out infinite 0.8s; }
+    .n-anim3 { animation: nodeBlink3 3.8s ease-in-out infinite 1.5s; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="2" y="2" width="896" height="216" rx="6" fill="url(#infoBg)" stroke="url(#infoBorder)" stroke-width="1" />
+
+  <!-- Background Computational Grid Matrix -->
+  <g opacity="0.08" stroke="#F7F4EE" stroke-width="0.5">
+    <line x1="20" y1="50" x2="880" y2="50" />
+    <line x1="20" y1="100" x2="880" y2="100" />
+    <line x1="20" y1="150" x2="880" y2="150" />
+    <line x1="550" y1="10" x2="550" y2="210" />
+    <line x1="650" y1="10" x2="650" y2="210" />
+    <line x1="750" y1="10" x2="750" y2="210" />
+    <line x1="850" y1="10" x2="850" y2="210" />
+  </g>
+
+  <!-- Left: Theoretical & Applied Foundations Content -->
+  <g transform="translate(45, 48)">
+    <text x="0" y="18" class="info-title">COMPUTATIONAL FOUNDATIONS &amp; AI</text>
+    <text x="0" y="38" class="info-subtitle">SYSTEMS, AUTOMATA &amp; ROBOTIC KINEMATICS</text>
+
+    <line x1="0" y1="52" x2="360" y2="52" stroke="#CBB89D" stroke-width="1" opacity="0.3" />
+
+    <!-- Scientific Statements -->
+    <text x="0" y="78" class="info-code">
+      <tspan fill="#CBB89D">&#9670;</tspan> Deterministic &amp; Stochastic State Machines: &#948;(q, &#963;) &#8594; q&#8242;
+    </text>
+    <text x="0" y="100" class="info-code">
+      <tspan fill="#CBB89D">&#9670;</tspan> Parameter Optimization &amp; Loss Landscapes: &#952;* = argmin L(&#952;)
+    </text>
+    <text x="0" y="122" class="info-code">
+      <tspan fill="#CBB89D">&#9670;</tspan> Spatial Transformations &amp; Kinematics: T = [ R | p ; 0 1 ]
+    </text>
+    <text x="0" y="144" class="info-code">
+      <tspan fill="#CBB89D">&#9670;</tspan> Multi-Agent Consensus &amp; Distributed Systems
+    </text>
+  </g>
+
+  <!-- Right: Animated Topological Graph / Neural State Network -->
+  <g transform="translate(510, 20)">
+    <!-- Connecting Edges -->
+    <line x1="70" y1="50" x2="160" y2="40" stroke="#CBB89D" stroke-width="1.2" opacity="0.4" />
+    <line x1="70" y1="50" x2="110" y2="120" stroke="#E8DFD8" stroke-width="1.2" class="edge-active1" opacity="0.7" />
+    <line x1="160" y1="40" x2="220" y2="90" stroke="#CBB89D" stroke-width="1.2" opacity="0.4" />
+    <line x1="110" y1="120" x2="220" y2="90" stroke="#E8DFD8" stroke-width="1.2" class="edge-active2" opacity="0.7" />
+    <line x1="110" y1="120" x2="150" y2="165" stroke="#CBB89D" stroke-width="1.2" opacity="0.4" />
+    <line x1="220" y1="90" x2="300" y2="60" stroke="#E8DFD8" stroke-width="1.2" class="edge-active1" opacity="0.8" />
+    <line x1="220" y1="90" x2="270" y2="150" stroke="#CBB89D" stroke-width="1.2" opacity="0.4" />
+    <line x1="150" y1="165" x2="270" y2="150" stroke="#CBB89D" stroke-width="1.2" opacity="0.4" />
+    <line x1="300" y1="60" x2="330" y2="120" stroke="#E8DFD8" stroke-width="1.2" class="edge-active2" opacity="0.7" />
+    <line x1="270" y1="150" x2="330" y2="120" stroke="#CBB89D" stroke-width="1.2" opacity="0.5" />
+
+    <!-- Graph Nodes with Subtle Glow and Pulsing -->
+    <!-- Node A -->
+    <circle cx="70" cy="50" r="12" fill="#24070D" stroke="#CBB89D" stroke-width="1" />
+    <circle cx="70" cy="50" class="n-anim1" filter="url(#nodeGlow)" />
+    <text x="70" y="53" text-anchor="middle" font-family="monospace" font-size="8" fill="#F7F4EE">q0</text>
+
+    <!-- Node B -->
+    <circle cx="160" cy="40" r="10" fill="#24070D" stroke="#CBB89D" stroke-width="1" />
+    <circle cx="160" cy="40" class="n-anim2" />
+
+    <!-- Node C -->
+    <circle cx="110" cy="120" r="14" fill="#24070D" stroke="#E8DFD8" stroke-width="1.2" />
+    <circle cx="110" cy="120" class="n-anim3" filter="url(#nodeGlow)" />
+    <text x="110" y="123" text-anchor="middle" font-family="monospace" font-size="9" fill="#F7F4EE">W1</text>
+
+    <!-- Node D -->
+    <circle cx="220" cy="90" r="16" fill="#24070D" stroke="#CBB89D" stroke-width="1.5" />
+    <circle cx="220" cy="90" class="n-anim1" filter="url(#nodeGlow)" />
+    <text x="220" y="93" text-anchor="middle" font-family="monospace" font-size="10" fill="#F7F4EE">&#963;</text>
+
+    <!-- Node E -->
+    <circle cx="150" cy="165" r="9" fill="#24070D" stroke="#CBB89D" stroke-width="1" />
+    <circle cx="150" cy="165" class="n-anim2" />
+
+    <!-- Node F -->
+    <circle cx="300" cy="60" r="13" fill="#24070D" stroke="#E8DFD8" stroke-width="1.2" />
+    <circle cx="300" cy="60" class="n-anim3" filter="url(#nodeGlow)" />
+    <text x="300" y="63" text-anchor="middle" font-family="monospace" font-size="9" fill="#F7F4EE">W2</text>
+
+    <!-- Node G -->
+    <circle cx="270" cy="150" r="10" fill="#24070D" stroke="#CBB89D" stroke-width="1" />
+    <circle cx="270" cy="150" class="n-anim1" />
+
+    <!-- Node Output -->
+    <circle cx="330" cy="120" r="15" fill="#24070D" stroke="#CBB89D" stroke-width="1.5" />
+    <circle cx="330" cy="120" class="n-anim2" filter="url(#nodeGlow)" />
+    <text x="330" y="124" text-anchor="middle" font-family="monospace" font-size="10" fill="#F7F4EE">y*</text>
+  </g>
+</svg>
+

@@ -1,0 +1,173 @@
+<svg width="100%" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient (Warm Parchment / Beige) -->
+    <linearGradient id="japanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3" />
+      <stop offset="50%" stop-color="#F4EFE6" />
+      <stop offset="100%" stop-color="#ECE3D4" />
+    </linearGradient>
+
+    <!-- Bordeaux Sun Gradient -->
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#80182A" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#641120" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#4A0B16" stop-opacity="0.75" />
+    </radialGradient>
+
+    <linearGradient id="japanBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#641120" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#641120" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#641120" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .jp-title {
+      font-family: 'Cinzel', 'Playfair Display', 'Georgia', serif;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      fill: #4A0B16;
+    }
+    .jp-subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      fill: #735952;
+    }
+    .jp-kanji-large {
+      font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', serif;
+      font-size: 32px;
+      font-weight: 300;
+      letter-spacing: 8px;
+      fill: #4A0B16;
+      opacity: 0.85;
+    }
+    .jp-kanji-small {
+      font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', serif;
+      font-size: 14px;
+      fill: #80182A;
+      letter-spacing: 4px;
+    }
+    .jp-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', serif;
+      font-size: 12px;
+      line-height: 1.6;
+      fill: #5C4843;
+      font-style: italic;
+    }
+    .hanko-text {
+      font-family: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #FBF8F3;
+    }
+
+    /* Falling Petals Animation */
+    @keyframes fall1 {
+      0% { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
+      15% { opacity: 0.75; }
+      85% { opacity: 0.65; }
+      100% { transform: translate(-70px, 160px) rotate(220deg); opacity: 0; }
+    }
+    @keyframes fall2 {
+      0% { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
+      20% { opacity: 0.8; }
+      80% { opacity: 0.7; }
+      100% { transform: translate(-90px, 170px) rotate(-180deg); opacity: 0; }
+    }
+    @keyframes fall3 {
+      0% { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
+      25% { opacity: 0.75; }
+      75% { opacity: 0.65; }
+      100% { transform: translate(-80px, 150px) rotate(160deg); opacity: 0; }
+    }
+    @keyframes sunPulse {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.03); opacity: 0.95; }
+    }
+
+    .petal1 { animation: fall1 9s ease-in-out infinite; }
+    .petal2 { animation: fall2 11s ease-in-out infinite 2s; }
+    .petal3 { animation: fall3 10s ease-in-out infinite 4.5s; }
+    .sun-elem { transform-origin: 740px 105px; animation: sunPulse 8s ease-in-out infinite; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect x="2" y="2" width="896" height="216" rx="6" fill="url(#japanBg)" stroke="url(#japanBorder)" stroke-width="1" />
+
+  <!-- Traditional Japanese Lattice/Grid Accents -->
+  <line x1="40" y1="2" x2="40" y2="218" stroke="#641120" stroke-width="0.5" opacity="0.15" />
+  <line x1="860" y1="2" x2="860" y2="218" stroke="#641120" stroke-width="0.5" opacity="0.15" />
+  <line x1="2" y1="25" x2="898" y2="25" stroke="#641120" stroke-width="0.5" opacity="0.15" />
+  <line x1="2" y1="195" x2="898" y2="195" stroke="#641120" stroke-width="0.5" opacity="0.15" />
+
+  <!-- Rising Sun (Bordeaux) -->
+  <g class="sun-elem">
+    <circle cx="740" cy="105" r="62" fill="url(#sunGrad)" />
+  </g>
+
+  <!-- Mount Fuji Stylized Minimalist Silhouette -->
+  <path d="M 620 185 L 705 100 Q 740 92 775 100 L 860 185 Z" fill="#ECE3D4" opacity="0.75" />
+  <!-- Snow peak lines -->
+  <path d="M 705 100 Q 740 92 775 100 L 760 120 L 750 115 L 740 125 L 730 115 L 720 120 Z" fill="#FBF8F3" />
+  <path d="M 600 185 L 880 185" stroke="#641120" stroke-width="1" opacity="0.3" />
+
+  <!-- Torii Gate Minimalist Line Silhouette -->
+  <g transform="translate(565, 95)" opacity="0.7">
+    <!-- Top curved beam (kasagi) -->
+    <path d="M 0 10 Q 30 5 60 10" stroke="#4A0B16" stroke-width="3" fill="none" stroke-linecap="round" />
+    <!-- Secondary straight beam (nuki) -->
+    <line x1="5" y1="20" x2="55" y2="20" stroke="#4A0B16" stroke-width="2" />
+    <!-- Pillars -->
+    <line x1="14" y1="8" x2="11" y2="70" stroke="#4A0B16" stroke-width="2.5" />
+    <line x1="46" y1="8" x2="49" y2="70" stroke="#4A0B16" stroke-width="2.5" />
+    <!-- Base plinths -->
+    <line x1="8" y1="70" x2="16" y2="70" stroke="#4A0B16" stroke-width="2" />
+    <line x1="44" y1="70" x2="52" y2="70" stroke="#4A0B16" stroke-width="2" />
+  </g>
+
+  <!-- Hanko (Traditional Seal Stamp in Bordeaux) -->
+  <rect x="70" y="42" width="34" height="34" rx="4" fill="#80182A" />
+  <rect x="73" y="45" width="28" height="28" rx="2" fill="none" stroke="#FBF8F3" stroke-width="1" opacity="0.7" />
+  <text x="87" y="66" text-anchor="middle" class="hanko-text">調和</text>
+
+  <!-- Vertical Calligraphy: 温故知新 (Learn from the past to develop new ideas) -->
+  <g transform="translate(130, 42)">
+    <text x="0" y="24" class="jp-kanji-large">温</text>
+    <text x="0" y="58" class="jp-kanji-large">故</text>
+    <text x="0" y="92" class="jp-kanji-large">知</text>
+    <text x="0" y="126" class="jp-kanji-large">新</text>
+  </g>
+
+  <!-- Content Block: Philosophy, Craft & Precision -->
+  <g transform="translate(195, 52)">
+    <text x="0" y="18" class="jp-title">JAPANESE AESTHETICS &amp; MONOZUKURI</text>
+    <text x="0" y="38" class="jp-subtitle">CRAFT, SIMPLICITY &amp; DISCIPLINED REFINEMENT</text>
+
+    <line x1="0" y1="52" x2="330" y2="52" stroke="#641120" stroke-width="1" opacity="0.25" />
+
+    <text x="0" y="78" class="jp-desc">
+      Drawing continuous inspiration from the philosophy of <tspan font-weight="600" fill="#4A0B16">Monozukuri</tspan> (craftsmanship),
+    </text>
+    <text x="0" y="98" class="jp-desc">
+      <tspan font-weight="600" fill="#4A0B16">Wabi-Sabi</tspan> (uncluttered restraint), and <tspan font-weight="600" fill="#4A0B16">Kaizen</tspan> (constant iterative refinement).
+    </text>
+    <text x="0" y="118" class="jp-desc">
+      Principles applied to software architecture, algorithm design, and robotic autonomy.
+    </text>
+  </g>
+
+  <!-- Animated Sakura / Blossom Petals (Bordeaux tones) -->
+  <g class="petal1" transform="translate(760, 20)">
+    <path d="M 0 0 C 4 -6 10 -4 11 2 C 12 8 5 13 0 16 C -5 13 -12 8 -11 2 C -10 -4 -4 -6 0 0 Z" fill="#9C2740" opacity="0.65" transform="scale(0.8)" />
+  </g>
+  <g class="petal2" transform="translate(680, 15)">
+    <path d="M 0 0 C 4 -6 10 -4 11 2 C 12 8 5 13 0 16 C -5 13 -12 8 -11 2 C -10 -4 -4 -6 0 0 Z" fill="#80182A" opacity="0.75" transform="scale(0.65)" />
+  </g>
+  <g class="petal3" transform="translate(810, 35)">
+    <path d="M 0 0 C 4 -6 10 -4 11 2 C 12 8 5 13 0 16 C -5 13 -12 8 -11 2 C -10 -4 -4 -6 0 0 Z" fill="#641120" opacity="0.7" transform="scale(0.75)" />
+  </g>
+</svg>
+
