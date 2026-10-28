@@ -7,17 +7,17 @@
 
   <br/><br/>
 
-  <!-- Interactive Clickable Social & Contact Badges in Bordeaux & Beige -->
+  <!-- Interactive Clickable Social & Contact Badges -->
   <a href="https://www.linkedin.com/in/alessio-curcio-7787b935a/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Alessio_Curcio-5C1322?style=for-the-badge&logo=linkedin&logoColor=F5EFEB&labelColor=22060C" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Alessio_Curcio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>
   &nbsp;
   <a href="mailto:alessio.curcio04@gmail.com">
-    <img src="https://img.shields.io/badge/Email-alessio.curcio04@gmail.com-5C1322?style=for-the-badge&logo=gmail&logoColor=F5EFEB&labelColor=22060C" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-alessio.curcio04@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/Crucio104?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-18_Projects-5C1322?style=for-the-badge&logo=git&logoColor=F5EFEB&labelColor=22060C" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Repositories-18_Projects-10B981?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
   </a>
 
 </div>
@@ -253,11 +253,11 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
 <div align="center">
 
   <a href="https://github.com/Crucio104">
-    <img src="https://github-readme-stats.vercel.app/api?username=Crucio104&show_icons=true&hide_border=false&border_color=5C1322&bg_color=22060C&title_color=E8DFD8&icon_color=CBB89D&text_color=D4C5B9" alt="Crucio104 GitHub Stats" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Crucio104&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=cbd5e1&hide_rank=true" alt="Crucio104 GitHub Stats" height="165" />
   </a>
   &nbsp;
   <a href="https://github.com/Crucio104">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crucio104&layout=compact&hide_border=false&border_color=5C1322&bg_color=22060C&title_color=E8DFD8&text_color=D4C5B9" alt="Crucio104 Top Languages" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crucio104&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1" alt="Crucio104 Top Languages" height="165" />
   </a>
 
 </div>
@@ -270,11 +270,11 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
   <p>Available for academic research inquiries and software engineering collaborations.</p>
 
   <a href="https://www.linkedin.com/in/alessio-curcio-7787b935a/" target="_blank">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-5C1322?style=for-the-badge&logo=linkedin&logoColor=F5EFEB&labelColor=22060C" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:alessio.curcio04@gmail.com">
-    <img src="https://img.shields.io/badge/Send_an_Email-5C1322?style=for-the-badge&logo=gmail&logoColor=F5EFEB&labelColor=22060C" alt="Email" />
+    <img src="https://img.shields.io/badge/Send_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 
 </div>
