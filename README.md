@@ -1,23 +1,23 @@
 <div align="center">
 
-  <!-- Dynamic Animated Typing SVG -->
+  <!-- Dynamic Animated Typing SVG in Bordeaux -->
   <a href="https://github.com/Crucio104">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi+there!+I'm+Alessio+Curcio;M.Sc.+AIRO+Student+%40+Sapienza+University+of+Rome;B.Sc.+ACSAI+Graduate+%40+Sapienza;AI+%26+Multi-Agent+Systems;Computer+Vision+%26+Robotics" alt="Typing SVG Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=9E2A42&center=true&vCenter=true&width=650&lines=Hi+there!+I'm+Alessio+Curcio;M.Sc.+AIRO+Student+%40+Sapienza+University+of+Rome;B.Sc.+ACSAI+Graduate+%40+Sapienza;AI+%26+Multi-Agent+Systems;Computer+Vision+%26+Robotics" alt="Typing SVG Banner" />
   </a>
 
   <br/><br/>
 
-  <!-- Interactive Clickable Social & Contact Badges -->
+  <!-- Interactive Clickable Social & Contact Badges in Bordeaux & Beige -->
   <a href="https://www.linkedin.com/in/alessio-curcio-7787b935a/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Alessio_Curcio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Alessio_Curcio-5C1322?style=for-the-badge&logo=linkedin&logoColor=F5EFEB&labelColor=22060C" alt="LinkedIn Profile" />
   </a>
   &nbsp;
   <a href="mailto:alessio.curcio04@gmail.com">
-    <img src="https://img.shields.io/badge/Email-alessio.curcio04%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-alessio.curcio04@gmail.com-5C1322?style=for-the-badge&logo=gmail&logoColor=F5EFEB&labelColor=22060C" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/Crucio104?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-18_Projects-10B981?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Repositories-18_Projects-5C1322?style=for-the-badge&logo=git&logoColor=F5EFEB&labelColor=22060C" alt="Repositories" />
   </a>
 
 </div>
@@ -77,9 +77,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/OpenSyntax-AI-coding-workspace">OpenSyntax Workspace</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Multi--Agent-FF6F00?style=flat-square" alt="Multi-Agent" />
-        <img src="https://img.shields.io/badge/Polyglot-10B981?style=flat-square" alt="Polyglot" />
+        <img src="https://img.shields.io/badge/TypeScript-5C1322?style=flat-square&logo=typescript&logoColor=F5EFEB&labelColor=22060C" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Multi--Agent-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Multi-Agent" />
+        <img src="https://img.shields.io/badge/Polyglot-5C1322?style=flat-square&labelColor=22060C" alt="Polyglot" />
       </p>
       <p>Multi-agent workspace for autonomous software development. Generates, structures, and compiles code across Python, C/C++, Java, Go, and Rust, with support for local LLMs and OpenAI endpoints.</p>
       <p align="center">
@@ -89,9 +89,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Email-Ai-Agent">Local LLM Email Agent</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/LM_Studio-8B5CF6?style=flat-square" alt="LM Studio" />
-        <img src="https://img.shields.io/badge/Local_AI-059669?style=flat-square" alt="Local AI" />
+        <img src="https://img.shields.io/badge/Python-5C1322?style=flat-square&logo=python&logoColor=F5EFEB&labelColor=22060C" alt="Python" />
+        <img src="https://img.shields.io/badge/LM_Studio-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="LM Studio" />
+        <img src="https://img.shields.io/badge/Local_AI-5C1322?style=flat-square&labelColor=22060C" alt="Local AI" />
       </p>
       <p>Inbox assistant running locally via LM Studio. Summarizes emails and categorizes priority messages on-device without cloud telemetry, with a desktop GUI and custom rules.</p>
       <p align="center">
@@ -103,10 +103,10 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td colspan="2">
       <h3 align="center"><a href="https://github.com/Crucio104/Voice-Cloning-Qwen3-TTS">Voice Cloning Qwen3-TTS</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/Qwen3--TTS-FF4F00?style=flat-square" alt="Qwen3 TTS" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+        <img src="https://img.shields.io/badge/React-5C1322?style=flat-square&logo=react&logoColor=F5EFEB&labelColor=22060C" alt="React" />
+        <img src="https://img.shields.io/badge/Qwen3--TTS-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Qwen3 TTS" />
+        <img src="https://img.shields.io/badge/Docker-5C1322?style=flat-square&logo=docker&logoColor=F5EFEB&labelColor=22060C" alt="Docker" />
+        <img src="https://img.shields.io/badge/TailwindCSS-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="TailwindCSS" />
       </p>
       <p>Web interface for zero-shot voice cloning and text-to-speech using Qwen3-TTS (1.7B). Supports multilingual synthesis, audio format conversion (WAV, MP3, FLAC), and Docker deployment.</p>
       <p align="center">
@@ -127,9 +127,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Lol-farming-bot">League of Legends Automation Bot</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/YOLOv11-00FFFF?style=flat-square" alt="YOLOv11" />
-        <img src="https://img.shields.io/badge/Computer_Vision-FF3366?style=flat-square" alt="Computer Vision" />
+        <img src="https://img.shields.io/badge/Python-5C1322?style=flat-square&logo=python&logoColor=F5EFEB&labelColor=22060C" alt="Python" />
+        <img src="https://img.shields.io/badge/YOLOv11-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="YOLOv11" />
+        <img src="https://img.shields.io/badge/Computer_Vision-5C1322?style=flat-square&labelColor=22060C" alt="Computer Vision" />
       </p>
       <p>Automation bot using YOLOv11 for real-time screen detection in mid lane. Classifies game entities, tracks champion position, and executes skill rotations while avoiding turret boundaries.</p>
       <p align="center">
@@ -139,9 +139,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Stock-market-predictor">Stock Market Predictor</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Keras_/_LSTM-D00000?style=flat-square" alt="Keras LSTM" />
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+        <img src="https://img.shields.io/badge/Python-5C1322?style=flat-square&logo=python&logoColor=F5EFEB&labelColor=22060C" alt="Python" />
+        <img src="https://img.shields.io/badge/Keras_/_LSTM-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Keras LSTM" />
+        <img src="https://img.shields.io/badge/Streamlit-5C1322?style=flat-square&logo=streamlit&logoColor=F5EFEB&labelColor=22060C" alt="Streamlit" />
       </p>
       <p>Time series forecasting application using LSTM neural networks to predict equity prices, with Yahoo Finance data streaming and Streamlit visualization.</p>
       <p align="center">
@@ -153,9 +153,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td colspan="2">
       <h3 align="center"><a href="https://github.com/Crucio104/PDF_File_Extractor">PDF Text & OCR Extractor</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PyQt5" />
-        <img src="https://img.shields.io/badge/Tesseract_OCR-4A154B?style=flat-square" alt="Tesseract OCR" />
-        <img src="https://img.shields.io/badge/Desktop_App-333333?style=flat-square" alt="Desktop App" />
+        <img src="https://img.shields.io/badge/PyQt5-5C1322?style=flat-square&logo=qt&logoColor=F5EFEB&labelColor=22060C" alt="PyQt5" />
+        <img src="https://img.shields.io/badge/Tesseract_OCR-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Tesseract OCR" />
+        <img src="https://img.shields.io/badge/Desktop_App-5C1322?style=flat-square&labelColor=22060C" alt="Desktop App" />
       </p>
       <p>Desktop application combining pdfplumber and Tesseract OCR for text extraction from scanned documents, supporting multiple languages and export to TXT and DOCX.</p>
       <p align="center">
@@ -176,9 +176,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Echo-messaging-system">Echo Messaging System</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-        <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-        <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
+        <img src="https://img.shields.io/badge/Go-5C1322?style=flat-square&logo=go&logoColor=F5EFEB&labelColor=22060C" alt="Go" />
+        <img src="https://img.shields.io/badge/Vue.js-CBB89D?style=flat-square&logo=vuedotjs&logoColor=5C1322&color=CBB89D&labelColor=5C1322" alt="Vue" />
+        <img src="https://img.shields.io/badge/Docker_Compose-5C1322?style=flat-square&logo=docker&logoColor=F5EFEB&labelColor=22060C" alt="Docker Compose" />
       </p>
       <p>Real-time messaging application developed for Sapienza's Web & Software Architecture course. Implements direct conversations, group chats, Go backend, Vue.js frontend, and Docker Compose.</p>
       <p align="center">
@@ -188,9 +188,9 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Quest-for-Valentine">Quest for Valentine</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Pixel_Art-EC4899?style=flat-square" alt="Pixel Art" />
-        <img src="https://img.shields.io/badge/Game_Dev-8B5CF6?style=flat-square" alt="Game Dev" />
+        <img src="https://img.shields.io/badge/JavaScript-5C1322?style=flat-square&logo=javascript&logoColor=F5EFEB&labelColor=22060C" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Pixel_Art-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Pixel Art" />
+        <img src="https://img.shields.io/badge/Game_Dev-5C1322?style=flat-square&labelColor=22060C" alt="Game Dev" />
       </p>
       <p>Browser game featuring branching narrative paths, dialogue state handling, particle effects, and multiple endings, built with Vanilla JavaScript.</p>
       <p align="center">
@@ -202,8 +202,8 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Site">Cross-Platform Portfolio</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Python-Flet-FF6F00?style=flat-square" alt="Flet" />
-        <img src="https://img.shields.io/badge/Cross--Platform-6366F1?style=flat-square" alt="Cross Platform" />
+        <img src="https://img.shields.io/badge/Python-Flet-5C1322?style=flat-square&labelColor=22060C" alt="Flet" />
+        <img src="https://img.shields.io/badge/Cross--Platform-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Cross Platform" />
       </p>
       <p>Cross-platform portfolio application built with Python and the Flet framework for desktop, web, and mobile environments.</p>
       <p align="center">
@@ -213,8 +213,8 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
     <td width="50%">
       <h3 align="center"><a href="https://github.com/Crucio104/Multicore-Programming">Multicore Programming</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/C_/_C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++" />
-        <img src="https://img.shields.io/badge/Robotics-10B981?style=flat-square" alt="Robotics" />
+        <img src="https://img.shields.io/badge/C_/_C++-5C1322?style=flat-square&logo=cplusplus&logoColor=F5EFEB&labelColor=22060C" alt="C/C++" />
+        <img src="https://img.shields.io/badge/Robotics-CBB89D?style=flat-square&color=CBB89D&labelColor=5C1322" alt="Robotics" />
       </p>
       <p>Implementations of concurrent programming, thread synchronization, memory management, and robotic control algorithms in C and C++.</p>
       <p align="center">
@@ -253,11 +253,11 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
 <div align="center">
 
   <a href="https://github.com/Crucio104">
-    <img src="https://github-readme-stats.vercel.app/api?username=Crucio104&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=cbd5e1" alt="Crucio104 GitHub Stats" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Crucio104&show_icons=true&hide_border=false&border_color=5C1322&bg_color=22060C&title_color=E8DFD8&icon_color=CBB89D&text_color=D4C5B9" alt="Crucio104 GitHub Stats" height="165" />
   </a>
   &nbsp;
   <a href="https://github.com/Crucio104">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crucio104&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1" alt="Crucio104 Top Languages" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crucio104&layout=compact&hide_border=false&border_color=5C1322&bg_color=22060C&title_color=E8DFD8&text_color=D4C5B9" alt="Crucio104 Top Languages" height="165" />
   </a>
 
 </div>
@@ -270,11 +270,11 @@ Technical focus centers on multi-agent systems, computer vision, local LLM archi
   <p>Available for academic research inquiries and software engineering collaborations.</p>
 
   <a href="https://www.linkedin.com/in/alessio-curcio-7787b935a/" target="_blank">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-5C1322?style=for-the-badge&logo=linkedin&logoColor=F5EFEB&labelColor=22060C" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:alessio.curcio04@gmail.com">
-    <img src="https://img.shields.io/badge/Send_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Send_an_Email-5C1322?style=for-the-badge&logo=gmail&logoColor=F5EFEB&labelColor=22060C" alt="Email" />
   </a>
 
 </div>
