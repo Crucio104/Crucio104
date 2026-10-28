@@ -1,8 +1,8 @@
 <div align="center">
 
-  <!-- Dynamic Animated Typing SVG in Bordeaux -->
+  <!-- Dynamic Animated Typing SVG in Beige -->
   <a href="https://github.com/Crucio104">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=9E2A42&center=true&vCenter=true&width=650&lines=Hi+there!+I'm+Alessio+Curcio;M.Sc.+AIRO+Student+%40+Sapienza+University+of+Rome;B.Sc.+ACSAI+Graduate+%40+Sapienza;AI+%26+Multi-Agent+Systems;Computer+Vision+%26+Robotics" alt="Typing SVG Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=24&pause=1200&color=D4B996&center=true&vCenter=true&width=650&lines=Hi+there!+I'm+Alessio+Curcio;M.Sc.+AIRO+Student+%40+Sapienza+University+of+Rome;B.Sc.+ACSAI+Graduate+%40+Sapienza;AI+%26+Multi-Agent+Systems;Computer+Vision+%26+Robotics" alt="Typing SVG Banner" />
   </a>
 
   <br/><br/>
